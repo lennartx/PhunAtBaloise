@@ -1,6 +1,6 @@
 package com.baloise.od;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -9,8 +9,7 @@ public class StartMeUp {
 	
 	@Test
 	public void pushToGithub() {
-		
-		fail("Do stuff!");
+		assertEquals(true, new OpenDonnerstag().learnedsomething());
 	}
 	
 }
